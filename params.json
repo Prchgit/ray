@@ -12,7 +12,8 @@
   "additionalDashboardUsers": {
     "users": []
   },
-  "tutorialProject": false,
+  "tutorialProject": true,
+  "tutorialId": "DKU_TUTORIAL_ML",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "gitCommitMode": "AUTO",
@@ -112,7 +113,8 @@
       }
     }
   },
-  "name": "103: Machine Learning (Tutorial)",
+  "name": "103: Machine Learning (Tutorial) for u1",
+  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -168,11 +170,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "dku_u1"
     },
-    "lastModifiedOn": 1590559932331
+    "lastModifiedOn": 1590559934657
   },
   "creationTag": {
     "versionNumber": 0,
