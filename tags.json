@@ -3,7 +3,11 @@
     "imported": {
       "color": "#263238"
     },
-    "creator:alex": {},
-    "tutorial": {}
+    "creator:alex": {
+      "color": "#1ac2ab"
+    },
+    "tutorial": {
+      "color": "#FFD83D"
+    }
   }
 }
