@@ -61,7 +61,8 @@
       }
     },
     "container": {
-      "containerMode": "NONE"
+      "containerMode": "EXPLICIT_CONTAINER",
+      "containerConf": "localdoc"
     },
     "datasetsCreationSettings": {
       "useGlobal": true,
@@ -170,11 +171,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 23,
+    "versionNumber": 24,
     "lastModifiedBy": {
-      "login": "dku_u1"
+      "login": "dku_u2"
     },
-    "lastModifiedOn": 1590559934657
+    "lastModifiedOn": 1591865402511
   },
   "creationTag": {
     "versionNumber": 0,
