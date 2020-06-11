@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "admin"
+      "login": "dku_u2"
     },
-    "lastModifiedOn": 1504617592044
+    "lastModifiedOn": 1591868991381
   },
   "creationTag": {
     "versionNumber": 0,
@@ -110,11 +110,11 @@
         "type": "string"
       },
       {
-        "name": "ip_address_country",
+        "name": "ip_address_geopoint",
         "type": "string"
       },
       {
-        "name": "ip_address_geopoint",
+        "name": "ip_address_country",
         "type": "string"
       },
       {
