@@ -38,42 +38,52 @@
   "selectedColumns": [
     {
       "name": "customerID",
+      "type": "string",
       "table": 0
     },
     {
       "name": "gender",
+      "type": "string",
       "table": 0
     },
     {
       "name": "birthdate",
+      "type": "string",
       "table": 0
     },
     {
       "name": "user_agent",
+      "type": "string",
       "table": 0
     },
     {
       "name": "ip_address",
+      "type": "string",
       "table": 0
     },
     {
       "name": "campaign",
+      "type": "string",
       "table": 0
     },
     {
       "name": "first_order_date",
+      "type": "string",
       "table": 1
     },
     {
       "name": "pages_visited_avg",
+      "type": "double",
       "table": 1
     },
     {
       "name": "total_sum",
+      "type": "double",
       "table": 1
     },
     {
       "name": "count",
+      "type": "bigint",
       "table": 1
     }
   ],
@@ -101,7 +111,16 @@
       "readParams": {
         "mode": "AUTO",
         "autoModeRepartitionInto": 10,
-        "map": {}
+        "map": {
+          "customers": {
+            "cache": false,
+            "repartition": 10
+          },
+          "orders_by_customer": {
+            "cache": false,
+            "repartition": 10
+          }
+        }
       },
       "overwriteOutputSchema": false,
       "executionEngine": "SPARK_SUBMIT",
@@ -131,6 +150,54 @@
     }
   ],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "meaning": "Text",
+            "name": "customerID",
+            "type": "string"
+          },
+          {
+            "name": "gender",
+            "type": "string"
+          },
+          {
+            "name": "birthdate",
+            "type": "string"
+          },
+          {
+            "name": "user_agent",
+            "type": "string"
+          },
+          {
+            "name": "ip_address",
+            "type": "string"
+          },
+          {
+            "name": "campaign",
+            "type": "string"
+          },
+          {
+            "name": "first_order_date",
+            "type": "string"
+          },
+          {
+            "name": "pages_visited_avg",
+            "type": "double"
+          },
+          {
+            "name": "total_sum",
+            "type": "double"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   },
