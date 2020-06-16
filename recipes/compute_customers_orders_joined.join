@@ -1,126 +1,139 @@
 {
-  "computedColumns": [], 
-  "enableAutoCastInJoinConditions": false, 
-  "engineParams": {
-    "hive": {
-      "addDkuUdf": false, 
-      "executionEngine": "HIVECLI_LOCAL", 
-      "hiveconf": [], 
-      "inheritConf": "default", 
-      "skipPrerunValidate": false
-    }, 
-    "impala": {
-      "forceStreamMode": true
-    }, 
-    "lowerCaseSchemaIfEngineRequiresIt": true, 
-    "sparkSQL": {
-      "overwriteOutputSchema": false, 
-      "pipelineAllowMerge": true, 
-      "pipelineAllowStart": true, 
-      "readParams": {
-        "map": {}
-      }, 
-      "sparkConfig": {
-        "conf": [], 
-        "inheritConf": "default"
-      }, 
-      "useGlobalMetastore": false
-    }
-  }, 
   "joins": [
     {
-      "conditionsMode": "AND", 
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {
+          "table": 0
+        },
+        "maxMatches": 0,
+        "strict": false,
+        "enabled": false
+      },
+      "type": "INNER",
+      "outerJoinOnTheLeft": true,
       "on": [
         {
           "column1": {
-            "name": "customerID", 
+            "name": "customerID",
             "table": 0
-          }, 
+          },
+          "dateDiffUnit": "DAY",
           "column2": {
-            "name": "customer_id", 
+            "name": "customer_id",
             "table": 1
-          }, 
-          "type": "EQ"
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
         }
-      ], 
-      "outerJoinOnTheLeft": true, 
-      "rightLimit": {
-        "decisionColumn": {}
-      }, 
-      "table1": 0, 
-      "table2": 1, 
-      "type": "INNER"
+      ]
     }
-  ], 
-  "postFilter": {}, 
+  ],
   "selectedColumns": [
     {
-      "name": "customerID", 
-      "table": 0, 
-      "type": "string"
-    }, 
+      "name": "customerID",
+      "table": 0
+    },
     {
-      "name": "gender", 
-      "table": 0, 
-      "type": "string"
-    }, 
+      "name": "gender",
+      "table": 0
+    },
     {
-      "name": "birthdate", 
-      "table": 0, 
-      "type": "string"
-    }, 
+      "name": "birthdate",
+      "table": 0
+    },
     {
-      "name": "user_agent", 
-      "table": 0, 
-      "type": "string"
-    }, 
+      "name": "user_agent",
+      "table": 0
+    },
     {
-      "name": "ip_address", 
-      "table": 0, 
-      "type": "string"
-    }, 
+      "name": "ip_address",
+      "table": 0
+    },
     {
-      "name": "campaign", 
-      "table": 0, 
-      "type": "string"
-    }, 
+      "name": "campaign",
+      "table": 0
+    },
     {
-      "name": "first_order_date", 
-      "table": 1, 
-      "type": "string"
-    }, 
+      "name": "first_order_date",
+      "table": 1
+    },
     {
-      "name": "pages_visited_avg", 
-      "table": 1, 
-      "type": "double"
-    }, 
+      "name": "pages_visited_avg",
+      "table": 1
+    },
     {
-      "name": "total_sum", 
-      "table": 1, 
-      "type": "double"
-    }, 
+      "name": "total_sum",
+      "table": 1
+    },
     {
-      "name": "count", 
-      "table": 1, 
-      "type": "bigint"
+      "name": "count",
+      "table": 1
     }
-  ], 
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "engineType": "SPARK",
   "virtualInputs": [
     {
-      "autoSelectColumns": false, 
-      "index": 0, 
       "preFilter": {
-        "distinct": false, 
+        "distinct": false,
         "enabled": false
-      }
-    }, 
+      },
+      "autoSelectColumns": false,
+      "index": 0
+    },
     {
-      "autoSelectColumns": false, 
-      "index": 1, 
       "preFilter": {
-        "distinct": false, 
+        "distinct": false,
         "enabled": false
-      }
+      },
+      "autoSelectColumns": false,
+      "index": 1
     }
-  ]
+  ],
+  "postFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "computedColumns": [],
+  "enableAutoCastInJoinConditions": false
 }
