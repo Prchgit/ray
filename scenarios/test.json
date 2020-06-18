@@ -5,11 +5,11 @@
   "name": "test",
   "active": true,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592474046173
+    "lastModifiedOn": 1592522218471
   },
   "checklists": {
     "checklists": []
@@ -26,7 +26,7 @@
       "type": "temporal",
       "name": "10min",
       "delay": 5,
-      "active": true,
+      "active": false,
       "params": {
         "frequency": "Minutely",
         "daysOfWeek": [
