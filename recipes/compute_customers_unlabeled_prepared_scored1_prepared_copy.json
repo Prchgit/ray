@@ -4,6 +4,7 @@
   "optionalDependencies": false,
   "params": {
     "schemaMode": "STRICT_SYNC",
+    "engineType": "HIVE",
     "forcePipelineableForTests": false,
     "engineParams": {
       "maxThreads": 4,
@@ -71,11 +72,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592462877434
+    "lastModifiedOn": 1592462883638
   },
   "creationTag": {
     "versionNumber": 0,
