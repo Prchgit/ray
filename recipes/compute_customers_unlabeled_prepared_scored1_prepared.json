@@ -18,8 +18,13 @@
         "useGlobalMetastore": false,
         "useNativeProcessors": true,
         "sparkConfig": {
-          "inheritConf": "sample-yarn-config",
-          "conf": []
+          "inheritConf": "default",
+          "conf": [
+            {
+              "key": "spark.yarn.queue",
+              "value": "A"
+            }
+          ]
         },
         "executionEngine": "SPARK_SUBMIT",
         "pipelineAllowStart": true,
