@@ -1,8 +1,9 @@
 {
+  "name": "dfg",
   "endpoints": [
     {
       "modelRef": "MoAG1lLh",
-      "useJava": true,
+      "useJava": false,
       "testQueries": [],
       "enrichMapping": [],
       "healthCheckQueries": [],
