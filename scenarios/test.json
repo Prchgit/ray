@@ -3,13 +3,13 @@
   "id": "test",
   "type": "step_based",
   "name": "test",
-  "active": false,
+  "active": true,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592474036661
+    "lastModifiedOn": 1592474046173
   },
   "checklists": {
     "checklists": []
