@@ -7,9 +7,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
-              "width": 6,
+              "top": 0,
+              "left": 3,
+              "width": 9,
               "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
@@ -38,11 +38,11 @@
   "name": "Default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592466129941
+    "lastModifiedOn": 1592466144242
   },
   "creationTag": {
     "versionNumber": 0,
