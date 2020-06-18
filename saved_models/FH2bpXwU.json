@@ -62,7 +62,15 @@
       "partition": "NP",
       "columns": [],
       "metrics": [
-        "reporting:BUILD_DURATION"
+        "reporting:BUILD_DURATION",
+        "model_perf:AUC",
+        "model_perf:ACCURACY",
+        "model_perf:F1",
+        "model_perf:LIFT",
+        "model_perf:LOGLOSS",
+        "model_perf:PRECISION",
+        "model_perf:RECALL",
+        "model_perf:CALIBRATIONLOSS"
       ]
     }
   },
@@ -1088,11 +1096,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1591941139988
+    "lastModifiedOn": 1592466169704
   },
   "creationTag": {
     "versionNumber": 0,
