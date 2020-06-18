@@ -3,7 +3,7 @@
   "rebuildBehavior": "EXPLICIT",
   "name": "Prediction (MLLIB_LOGISTIC_REGRESSION) on customers_labeled",
   "contentType": "prediction/mllib",
-  "activeVersion": "1592466179136",
+  "activeVersion": "1592471255683",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -1096,11 +1096,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592466244561
+    "lastModifiedOn": 1592471324198
   },
   "creationTag": {
     "versionNumber": 0,
