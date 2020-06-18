@@ -25,8 +25,26 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "gender"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -34,7 +52,20 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "age_first_order": 128,
+    "ip_address_geopoint": 183,
+    "proba_False": 141,
+    "gender": 100,
+    "user_agent_brand": 135,
+    "user_agent_os": 113,
+    "ip_address_country": 150,
+    "pages_visited_avg": 143,
+    "customerID": 100,
+    "prediction": 100,
+    "campaign": 100,
+    "proba_True": 155
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
