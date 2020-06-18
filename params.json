@@ -172,7 +172,7 @@
     }
   },
   "name": "103: Machine Learning (Tutorial) for u1",
-  "projectStatus": "Sandbox",
+  "projectStatus": "Draft",
   "imgPattern": 2,
   "metrics": {
     "probes": [],
@@ -229,11 +229,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 30,
+    "versionNumber": 31,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592476209394
+    "lastModifiedOn": 1592476213562
   },
   "creationTag": {
     "versionNumber": 0,
