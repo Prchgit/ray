@@ -1,9 +1,28 @@
 {
+  "name": "revenue",
   "endpoints": [
     {
       "modelRef": "MoAG1lLh",
-      "useJava": true,
-      "testQueries": [],
+      "useJava": false,
+      "testQueries": [
+        {
+          "name": "customers_labeled #1",
+          "q": {
+            "features": {
+              "customerID": "004802",
+              "gender": "M",
+              "age_first_order": 47,
+              "user_agent_brand": "Chrome",
+              "user_agent_os": "Windows",
+              "ip_address_geopoint": "POINT(113.7266 34.7725)",
+              "ip_address_country": "China",
+              "campaign": false,
+              "pages_visited_avg": 19,
+              "high_revenue": false
+            }
+          }
+        }
+      ],
       "enrichMapping": [],
       "healthCheckQueries": [],
       "id": "test",
