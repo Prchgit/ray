@@ -193,6 +193,10 @@
           {
             "name": "count",
             "type": "bigint"
+          },
+          {
+            "name": "sddsfdfsdfd",
+            "type": "double"
           }
         ],
         "userModified": false
@@ -201,6 +205,13 @@
     "distinct": false,
     "enabled": false
   },
-  "computedColumns": [],
+  "computedColumns": [
+    {
+      "mode": "GREL",
+      "name": "sddsfdfsdfd",
+      "expr": "customerID+3+ip_address",
+      "type": "double"
+    }
+  ],
   "enableAutoCastInJoinConditions": false
 }
