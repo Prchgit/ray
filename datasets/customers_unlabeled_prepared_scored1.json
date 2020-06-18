@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592472541425
+    "lastModifiedOn": 1592472553155
   },
   "creationTag": {
     "versionNumber": 0,
@@ -259,7 +259,12 @@
       "columns": [],
       "metrics": [
         "reporting:BUILD_DURATION",
-        "reporting:BUILD_SUCCESS"
+        "reporting:BUILD_SUCCESS",
+        "records:COUNT_RECORDS",
+        "basic:SIZE",
+        "reporting:METRICS_COMPUTATION_DURATION",
+        "reporting:BUILD_START_DATE",
+        "reporting:WARNING_COUNT"
       ]
     }
   },
