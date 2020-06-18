@@ -3,7 +3,7 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "engineType": "HIVE",
+    "engineType": "SPARK",
     "engineParams": {
       "spark": {
         "readParams": {
@@ -70,11 +70,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592447005413
+    "lastModifiedOn": 1592462595187
   },
   "creationTag": {
     "versionNumber": 0,
