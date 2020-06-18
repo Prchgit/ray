@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592462877429
+    "lastModifiedOn": 1592462883127
   },
   "creationTag": {
     "versionNumber": 0,
@@ -67,7 +67,7 @@
   "schema": {
     "columns": [
       {
-        "name": "customerID",
+        "name": "customerid",
         "type": "string"
       },
       {
@@ -103,11 +103,11 @@
         "type": "double"
       },
       {
-        "name": "proba_False",
+        "name": "proba_false",
         "type": "double"
       },
       {
-        "name": "proba_True",
+        "name": "proba_true",
         "type": "double"
       },
       {
