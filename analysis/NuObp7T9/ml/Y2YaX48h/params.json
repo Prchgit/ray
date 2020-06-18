@@ -434,7 +434,7 @@
       "max_feature_prop": 0.3
     },
     "gbt_classification": {
-      "enabled": false,
+      "enabled": true,
       "n_estimators": {
         "values": [
           100
