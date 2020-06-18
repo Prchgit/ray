@@ -9,6 +9,9 @@
     "tutorial": {
       "color": "#FFD83D"
     },
-    "origin:hive_import:dku2": {}
+    "origin:hive_import:dku2": {},
+    "scb": {},
+    "exec_engines": {},
+    "ml": {}
   }
 }
