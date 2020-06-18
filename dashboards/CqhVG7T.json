@@ -3,7 +3,32 @@
     {
       "id": "MCurGlf",
       "grid": {
-        "tiles": []
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 6,
+              "height": 3
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showName": true,
+              "showDescription": true,
+              "showCustomFields": true,
+              "showStorageType": false,
+              "showMeaning": false,
+              "showProgressBar": false
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "zwKXaCo",
+            "insightType": "dataset_table",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
       },
       "showTitle": false
     }
@@ -13,11 +38,11 @@
   "name": "Default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
-      "login": "alex"
+      "login": "dku_u2"
     },
-    "lastModifiedOn": 1492181307423
+    "lastModifiedOn": 1592466128569
   },
   "creationTag": {
     "versionNumber": 0,
@@ -27,6 +52,7 @@
     "lastModifiedOn": 1492181307423
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }
