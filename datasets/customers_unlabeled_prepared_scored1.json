@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592472336163
+    "lastModifiedOn": 1592472368118
   },
   "creationTag": {
     "versionNumber": 0,
@@ -140,7 +140,7 @@
         "type": "string"
       }
     ],
-    "userModified": false
+    "userModified": true
   },
   "metrics": {
     "probes": [
@@ -157,7 +157,7 @@
       {
         "type": "records",
         "enabled": true,
-        "computeOnBuildMode": "NO",
+        "computeOnBuildMode": "PARTITION",
         "meta": {
           "name": "Record count",
           "level": 0
@@ -263,7 +263,7 @@
     }
   },
   "metricsChecks": {
-    "runOnBuild": false,
+    "runOnBuild": true,
     "checks": [],
     "displayedState": {
       "partition": "NP",
