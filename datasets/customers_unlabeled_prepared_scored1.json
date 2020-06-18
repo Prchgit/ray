@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592472368118
+    "lastModifiedOn": 1592472541425
   },
   "creationTag": {
     "versionNumber": 0,
@@ -258,13 +258,31 @@
       "partition": "NP",
       "columns": [],
       "metrics": [
-        "reporting:BUILD_DURATION"
+        "reporting:BUILD_DURATION",
+        "reporting:BUILD_SUCCESS"
       ]
     }
   },
   "metricsChecks": {
     "runOnBuild": true,
-    "checks": [],
+    "checks": [
+      {
+        "metricId": "reporting:BUILD_SUCCESS",
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "softMinimum": 0.0,
+        "softMaximum": 0.0,
+        "minimumEnabled": false,
+        "maximumEnabled": false,
+        "softMinimumEnabled": false,
+        "softMaximumEnabled": false,
+        "type": "numericRange",
+        "meta": {
+          "name": "Value in range"
+        },
+        "computeOnBuildMode": "PARTITION"
+      }
+    ],
     "displayedState": {
       "partition": "NP",
       "checks": []
