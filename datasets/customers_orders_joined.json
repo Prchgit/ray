@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
-      "login": "alex"
+      "login": "dku_u2"
     },
-    "lastModifiedOn": 1492546037026
+    "lastModifiedOn": 1592467930846
   },
   "creationTag": {
     "versionNumber": 0,
@@ -128,6 +128,10 @@
       {
         "name": "count",
         "type": "bigint"
+      },
+      {
+        "name": "sddsfdfsdfd",
+        "type": "double"
       }
     ],
     "userModified": true
