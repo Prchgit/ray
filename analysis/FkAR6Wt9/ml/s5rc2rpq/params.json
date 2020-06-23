@@ -1251,7 +1251,7 @@
     "envName": "py3"
   },
   "containerSelection": {
-    "containerMode": "INHERIT"
+    "containerMode": "NONE"
   },
   "sparkParams": {
     "sparkConf": {
