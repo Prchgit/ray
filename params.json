@@ -23,7 +23,13 @@
     ]
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "JUPYTER_NOTEBOOK",
+        "localName": "dku_u2\u0027s Python notebook",
+        "rules": []
+      }
+    ]
   },
   "projectType": "REGULAR",
   "bundleExporterSettings": {
@@ -229,11 +235,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 31,
+    "versionNumber": 32,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1592476213562
+    "lastModifiedOn": 1593069957557
   },
   "creationTag": {
     "versionNumber": 0,
