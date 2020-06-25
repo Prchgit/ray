@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "dku_u2"
     },
-    "lastModifiedOn": 1593070006969
+    "lastModifiedOn": 1593070014864
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,57 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "customerID",
+        "type": "string"
+      },
+      {
+        "name": "gender",
+        "type": "string"
+      },
+      {
+        "name": "age_first_order",
+        "type": "double"
+      },
+      {
+        "name": "user_agent_brand",
+        "type": "string"
+      },
+      {
+        "name": "user_agent_os",
+        "type": "string"
+      },
+      {
+        "name": "ip_address_country",
+        "type": "string"
+      },
+      {
+        "name": "ip_address_geopoint",
+        "type": "string"
+      },
+      {
+        "name": "campaign",
+        "type": "boolean"
+      },
+      {
+        "name": "pages_visited_avg",
+        "type": "double"
+      },
+      {
+        "name": "proba_False",
+        "type": "double"
+      },
+      {
+        "name": "proba_True",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
+        "type": "boolean"
+      }
+    ],
+    "userModified": false
   },
   "metrics": {
     "probes": [
